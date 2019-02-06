@@ -1,0 +1,30 @@
+- Unternehmen:
+    - Name: Fort Knox
+    - Firmensitz: Kempten, bei der BigBox 42
+    - Mitarbeiter: Geschäftsführer, Sekretärin, Kundenbetreuer, Personalbetreuer
+    - ~30 Haushüter -> meistens Studenten oder Rentner
+    - Momentan werden Kunden im Raum Kempten bedient
+
+    - statische externe Website, nur Infos keine Funktionen
+
+Verwendete Hardware:
+    - Veraltete PCs, keine Infrastruktur
+    - Telefonanschlüse mit eigener Durchwahl
+
+- Kommunikation mit dem Kunden:
+    - Telefon, Mail, Persönlich
+    - Anfrage kommt vom Kunden -> an Kundenbetreuer oder Sekretärin
+    - Anfrage inklusive weiterer Details wie zeitlicher Ablauf, spezielle Kundenwünsche, ... werden an Kundenbetreuer weitergeleitet
+    - Personalbetreuer sucht passende Haushüter
+    - Wenn kein passender Haushüter gefunden wird, wird der Auftrag abgelehnt
+    - Kundenbetreuer schickt dem Kunden ein Angebot und geht auf weitere Kundenwünsche ein
+    - Auf Wunsch werden Details des Angebots nachgebessert
+    - Abwicklung des Auftrags (Durchführung, Dokumentation, Abschluss, Bezahlung)
+
+- Sonderfälle:
+
+- Datenverwaltung:
+    - Pflege und Speicherung der Daten geschiet per lokale Exel-Tabelle und/oder Karteikarten
+    - Wandkalender zur Verfügbarkeit der Haushüter
+        - Verfügbarkeit der Haushüter ist nur teilweise in Kalender eingetragen
+        - Kalender wird laufend ergänzt

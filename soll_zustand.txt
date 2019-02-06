@@ -1,0 +1,23 @@
+- Zentrale Anforderungen:
+    - Webportal für Kunde und Haushüter mit Login für Haushüter und Kontaktformular für Kunden
+    - Zentrale Datenverwaltung (direkt Verbunden mit Webportal)
+    - Erneuerung zentraler Hardware
+
+- Hardware Mitarbeiter:
+
+- Hardware Haushüter:
+
+- Funktionalität Webportal:
+
+- Einzelne Use-Cases:
+
+- 
+
+- Soll Ablauf Webportal:
+    - (Umsetzung per Outlook wahrscheinlich)
+    - Kontaktaufnahme per Kontaktformular -> Vorschlag zur erneuten Zusammenarbeit mit Haushüter X
+    - Erfassung der Daten und direkte Benachrichtigung des Kundenbetreuers per Email
+    - Eintragen von geplanten Terminen in Haushüterkalender
+    - Benachrichtigung der Haushüter per Email / Push Benachrichtigung per App bzw. mobile Website
+    - Sobald passender Haushüter gefunden, Abfrage bei Kunden bezüglich treffen 
+    - 
