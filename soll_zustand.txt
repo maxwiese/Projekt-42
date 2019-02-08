@@ -4,14 +4,37 @@
     - Erneuerung zentraler Hardware
 
 - Hardware Mitarbeiter:
+    - Fritzbox 7590
+    - 6x Monitore 24"
+    - 4x Maus & Tastatur
+    - Multifunktionsgerät (Drucker, Scanner, Fax)
+    - ( DECT Telefone, Headsets )
+    - ( Kaffemaschine )
+
+    - Betreuer: Surface & Dockingstation
+    - Cheffe & Sekretärin: Desktop-PC
 
 - Hardware Haushüter:
+    - ~10 Tablets bereitsellen & Schutzhülle und extra großen Tasten
+
+- Software Mitarbeiter:
+    - Windows 10
+    - Antivirus Programm
+    - Office 365 Business ( 8,80€ pro monat pro nutzer )
+    - ( Telefon-Client auf PC für Headsets )
 
 - Funktionalität Webportal:
 
 - Einzelne Use-Cases:
 
-- 
+- Kontaktformularinhalt:
+    - Kontaktdaten (Name, Adresse?, )
+    - Notizenfeld
+    - Haustier Checkbox
+    - Pflanzen Checkbox
+    - Garten Checkbox
+    - Vorschlagfeld Haushüter (falls wiederkehrender Kunde)
+
 
 - Soll Ablauf Webportal:
     - (Umsetzung per Outlook wahrscheinlich)
@@ -20,4 +43,20 @@
     - Eintragen von geplanten Terminen in Haushüterkalender
     - Benachrichtigung der Haushüter per Email / Push Benachrichtigung per App bzw. mobile Website
     - Sobald passender Haushüter gefunden, Abfrage bei Kunden bezüglich treffen 
-    - 
+    - Bei treffen, Aufgaben mit Haushüter besprechen und im Webportal Eintragen
+    - Abwicklung des Auftrags
+        - Druchführung
+        - Sonderaufgaben
+            - Preiszuschlag
+            - keine Garantie auf erledigung
+        - Zeiterfassen
+        - Pushbenachrichtigung Kunde
+        - Zeitraumänderungen Mitteilung Haushüterbetreuer
+            - Neuer Haushüter
+    - Abschluss
+        - automatische Rechnungserstellung
+        - Prüfung durch Sekretärin
+        - Versandt der Rechnung per Email
+        - Bewertungsformular
+    - Zahlung des Kunden
+

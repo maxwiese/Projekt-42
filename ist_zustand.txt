@@ -21,8 +21,6 @@ Verwendete Hardware:
     - Auf Wunsch werden Details des Angebots nachgebessert
     - Abwicklung des Auftrags (Durchführung, Dokumentation, Abschluss, Bezahlung)
 
-- Sonderfälle:
-
 - Datenverwaltung:
     - Pflege und Speicherung der Daten geschiet per lokale Exel-Tabelle und/oder Karteikarten
     - Wandkalender zur Verfügbarkeit der Haushüter

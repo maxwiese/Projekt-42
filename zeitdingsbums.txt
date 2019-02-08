@@ -5,3 +5,12 @@
 Bene
 Christian
 Markus
+
+08.02.2019 --> 3 sstd
+
+- SOLL-Analyse 
+- UML USECASE Diagram
+
+Bene
+Christian
+Markus
