@@ -14,3 +14,11 @@ Markus
 Bene
 Christian
 Markus
+
+25.02.2019 --> 1sstd
+
+- UML USECASE Diagram (nicht die Strahlen kreuzen)
+
+(Uncle) Bene
+Christian
+Markus
