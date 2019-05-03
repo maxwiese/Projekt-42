@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1342</x>
+      <y>187</y>
+      <w>297</w>
+      <h>352</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Ubuntu Server 18.04 LTS
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>253</y>
+      <w>253</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Apache Webserver
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1397</x>
+      <y>319</y>
+      <w>187</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Webportal</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>429</y>
+      <w>253</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+MySQL - Database</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>0</x>
+      <y>869</y>
+      <w>275</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Fritzbox</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1320</x>
+      <y>0</y>
+      <w>352</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Multifunktonsdrucker</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1320</x>
+      <y>110</y>
+      <w>352</w>
+      <h>451</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+HP Server
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1320</x>
+      <y>594</y>
+      <w>352</w>
+      <h>407</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+HP Desktop PC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1342</x>
+      <y>660</y>
+      <w>297</w>
+      <h>319</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Windows 10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>715</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Chromebased Webbrowser
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>803</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Office 360 Suit
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>891</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Kaspersky Internet Security
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1320</x>
+      <y>1023</y>
+      <w>352</w>
+      <h>407</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Microsoft Surface</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1342</x>
+      <y>1089</y>
+      <w>297</w>
+      <h>319</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Windows 10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1144</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Chromebased Webbrowser
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1232</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Office 360 Suit
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1320</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Kaspersky Internet Security
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1320</x>
+      <y>1452</y>
+      <w>352</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Samsung Tab 5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1342</x>
+      <y>1518</y>
+      <w>297</w>
+      <h>242</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Android 9.1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1584</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Chromebased Webbrowser
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1672</y>
+      <w>253</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;execution environment&gt;&gt;
+Kaspersky Internet Security
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>506</x>
+      <y>660</y>
+      <w>275</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Cisco Systems WS-C2960-24PC-L</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>517</x>
+      <y>1089</y>
+      <w>275</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Ubiquiti UniFi Access Point AC LR</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>693</y>
+      <w>264</w>
+      <h>242</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Ethernet LAN&gt;&gt;</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>902</y>
+      <w>275</w>
+      <h>253</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Ethernet LAN&gt;&gt;</panel_attributes>
+    <additional_attributes>230.0;210.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>308</y>
+      <w>572</w>
+      <h>418</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Ethernet LAN&gt;&gt;</panel_attributes>
+    <additional_attributes>500.0;10.0;10.0;360.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>693</y>
+      <w>572</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Ethernet LAN&gt;&gt;</panel_attributes>
+    <additional_attributes>500.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>1012</x>
+      <y>1034</y>
+      <w>231</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Dockingstation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>693</y>
+      <w>264</w>
+      <h>451</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Ethernet LAN&gt;&gt;</panel_attributes>
+    <additional_attributes>220.0;390.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1232</x>
+      <y>1089</y>
+      <w>110</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;USB-C&gt;&gt;</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>781</x>
+      <y>1122</y>
+      <w>561</w>
+      <h>517</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;WLAN&gt;&gt;</panel_attributes>
+    <additional_attributes>490.0;450.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>33</y>
+      <w>572</w>
+      <h>693</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Ethernet LAN&gt;&gt;</panel_attributes>
+    <additional_attributes>500.0;10.0;10.0;610.0</additional_attributes>
+  </element>
+</diagram>
