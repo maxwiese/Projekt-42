@@ -1,4 +1,4 @@
-06.02.2019 --> 2 sstd
+﻿06.02.2019 --> 2 sstd
 
 - IST-Analyse, SOLL-Analyse -> Stichpunktartig
 
@@ -44,4 +44,13 @@ Markus
 
 Bene
 Christian
+Markus
+
+03.05.2019 --> 3sstd
+
+- Component und Deployment Diagramm
+- Überarbeitung Script
+
+Bene
+Christian 
 Markus
