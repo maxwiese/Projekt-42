@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-05-14" view-index="0" gantt-divider-location="456" resource-divider-location="300" version="2.8.10" locale="de_DE">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-05-14" view-index="0" gantt-divider-location="456" resource-divider-location="300" version="2.8.10" locale="de">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Vorgang" width="294" order="0"/>
-        <field id="tpd4" name="Anfang" width="49" order="1"/>
-        <field id="tpd5" name="Ende" width="109" order="2"/>
+        <field id="tpd3" name="Vorgang" width="284" order="0"/>
+        <field id="tpd4" name="Anfang" width="48" order="1"/>
+        <field id="tpd5" name="Ende" width="105" order="2"/>
+        <option id="color.recent"><![CDATA[#33cc00 #ccccff #ff00ff #ffff00 #ff9900 #ffcc00 #009933 #99ff00 #f4f4f4 #00ff00]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Ressource" width="210" order="0"/>
@@ -33,80 +34,98 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="74" name="Projektplanung" meeting="false" start="2019-05-14" duration="2" complete="0" expand="false">
+        <task id="74" name="Projektplanung" color="#ff9900" meeting="false" start="2019-05-14" duration="2" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" priority="4" expand="true">
             <depend id="52" type="2" difference="0" hardness="Strong"/>
             <depend id="53" type="2" difference="0" hardness="Strong"/>
             <depend id="63" type="2" difference="0" hardness="Strong"/>
-            <depend id="185" type="2" difference="0" hardness="Strong"/>
-            <task id="76" name="Projektplan anfertigen" meeting="false" start="2019-05-14" duration="1" complete="0" expand="true">
+            <task id="76" name="Projektplan anfertigen" color="#ff9900" meeting="false" start="2019-05-14" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" priority="4" expand="true">
                 <depend id="78" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="78" name="Angebot erstellen" color="#8cb6ce" meeting="false" start="2019-05-15" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+            <task id="78" name="Angebot erstellen" color="#ff9900" meeting="false" start="2019-05-15" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+            <task id="281" name="Projektplanung abgeschlossen" color="#ff3300" meeting="true" start="2019-05-16" duration="0" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" priority="4" expand="true"/>
         </task>
-        <task id="52" name="Hardware" color="#000000" meeting="false" start="2019-05-16" duration="17" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
+        <task id="52" name="Hardware" color="#8cb6ce" meeting="false" start="2019-05-16" duration="9" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
+            <depend id="285" type="2" difference="0" hardness="Strong"/>
             <task id="54" name="Hardware bestellen" color="#8cb6ce" meeting="false" start="2019-05-16" duration="3" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" priority="2" expand="true">
-                <depend id="113" type="2" difference="0" hardness="Strong"/>
                 <depend id="130" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="140" name="Netzwerkinstallation" meeting="false" start="2019-05-16" duration="14" complete="0" expand="true">
+            <task id="140" name="Netzwerkinstallation" color="#8cb6ce" meeting="false" start="2019-05-16" duration="5" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
                 <depend id="170" type="2" difference="0" hardness="Strong"/>
-                <task id="141" name="Vorhandene Verkabelung erweitern" color="#8cb6ce" meeting="false" start="2019-05-16" duration="3" complete="0" thirdDate="2019-05-21" thirdDate-constraint="0" expand="true">
+                <task id="141" name="Vorhandene Verkabelung erweitern" color="#8cb6ce" meeting="false" start="2019-05-16" duration="2" complete="0" thirdDate="2019-05-21" thirdDate-constraint="0" expand="true">
                     <depend id="130" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="130" name="FritzBox!" color="#000000" meeting="false" start="2019-05-21" duration="2" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
-                    <depend id="110" type="2" difference="0" hardness="Strong"/>
-                    <task id="137" name="Aufbau" color="#8cb6ce" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
-                        <depend id="138" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="138" name="Configuration" color="#8cb6ce" meeting="false" start="2019-05-22" duration="1" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true"/>
+                <task id="130" name="FritzBox!" color="#8cb6ce" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
+                    <task id="137" name="Aufbau" color="#8cb6ce" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true"/>
+                    <task id="138" name="Configuration" color="#8cb6ce" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="110" name="Switch" color="#000000" meeting="false" start="2019-05-23" duration="2" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="false">
+                <task id="110" name="Switch" color="#8cb6ce" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
                     <depend id="120" type="2" difference="0" hardness="Strong"/>
-                    <task id="113" name="Aufbau" color="#8cb6ce" meeting="false" start="2019-05-23" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
-                        <depend id="116" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="116" name="Configuration" meeting="false" start="2019-05-24" duration="1" complete="0" expand="true"/>
+                    <task id="113" name="Aufbau" color="#8cb6ce" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+                    <task id="116" name="Configuration" color="#8cb6ce" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-23" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="120" name="Server" color="#000000" meeting="false" start="2019-05-30" duration="4" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
-                    <task id="192" name="RAID 1+0 einrichten" meeting="false" start="2019-05-30" duration="1" complete="0" expand="true">
-                        <depend id="122" type="2" difference="0" hardness="Strong"/>
-                    </task>
-                    <task id="122" name="Installation" color="#8cb6ce" meeting="false" start="2019-05-31" duration="3" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="false">
-                        <task id="148" name="Linux Installation" meeting="false" start="2019-05-31" duration="1" complete="0" expand="true">
-                            <depend id="152" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="152" name="MySQL Installation" meeting="false" start="2019-06-03" duration="1" complete="0" expand="true">
-                            <depend id="155" type="2" difference="0" hardness="Strong"/>
-                        </task>
-                        <task id="155" name="Apache Installation" meeting="false" start="2019-06-04" duration="1" complete="0" expand="true"/>
+                <task id="120" name="Server" color="#8cb6ce" meeting="false" start="2019-05-22" duration="1" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
+                    <task id="192" name="RAID 1+0 einrichten" color="#8cb6ce" meeting="false" start="2019-05-22" duration="1" complete="0" thirdDate="2019-05-30" thirdDate-constraint="0" expand="true"/>
+                    <task id="122" name="Installation" color="#8cb6ce" meeting="false" start="2019-05-22" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
+                        <task id="148" name="Linux Installation" color="#8cb6ce" meeting="false" start="2019-05-22" duration="1" complete="0" thirdDate="2019-05-31" thirdDate-constraint="0" expand="true"/>
+                        <task id="152" name="MySQL Installation" color="#8cb6ce" meeting="false" start="2019-05-22" duration="1" complete="0" thirdDate="2019-05-29" thirdDate-constraint="0" expand="true"/>
+                        <task id="155" name="Apache Installation" color="#8cb6ce" meeting="false" start="2019-05-22" duration="1" complete="0" thirdDate="2019-05-30" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
             </task>
-            <task id="170" name="User-Hardware" color="#000000" meeting="false" start="2019-06-05" duration="3" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="false">
-                <task id="62" name="Tablets installieren" color="#8cb6ce" meeting="false" start="2019-06-05" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
-                <task id="172" name="Dockingstation aufbauen" meeting="false" start="2019-06-05" duration="1" complete="0" expand="true">
-                    <depend id="60" type="2" difference="0" hardness="Strong"/>
+            <task id="170" name="User-Hardware" color="#8cb6ce" meeting="false" start="2019-05-23" duration="4" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
+                <task id="62" name="Tablets installieren" color="#8cb6ce" meeting="false" start="2019-05-23" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+                <task id="61" name="Surface / Desktop Pcs einrichten" color="#8cb6ce" meeting="false" start="2019-05-23" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+                <task id="172" name="Hardware aufbauen" color="#8cb6ce" meeting="false" start="2019-05-24" duration="1" complete="0" thirdDate="2019-06-05" thirdDate-constraint="0" expand="true"/>
+                <task id="346" name="Hardware im Kundennetzwerk testen" color="#8cb6ce" meeting="false" start="2019-05-27" duration="2" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="285" name="Hardware aufgebaut" color="#ff3300" meeting="true" start="2019-05-29" duration="0" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="202" type="2" difference="0" hardness="Strong"/>
+            <depend id="228" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="53" name="Software" color="#33cc00" meeting="false" start="2019-05-16" duration="11" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
+            <depend id="329" type="2" difference="0" hardness="Strong"/>
+            <task id="64" name="Backend programmieren" color="#33cc00" meeting="false" start="2019-05-16" duration="6" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
+                <depend id="294" type="2" difference="0" hardness="Strong"/>
+                <task id="204" name="Datenbankverbindung herstellen" color="#33cc00" meeting="false" start="2019-05-16" duration="1" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="208" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="60" name="Bildschirme aufbauen" color="#8cb6ce" meeting="false" start="2019-06-06" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
-                    <depend id="61" type="2" difference="0" hardness="Strong"/>
+                <task id="208" name="Daten aufbereiten" color="#33cc00" meeting="false" start="2019-05-17" duration="4" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="206" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="61" name="Surface / Desktop Pcs einrichten" color="#8cb6ce" meeting="false" start="2019-06-07" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+                <task id="206" name="HTTP Schnittstelle bereitstellen" color="#33cc00" meeting="false" start="2019-05-23" duration="1" complete="0" thirdDate="2019-05-23" thirdDate-constraint="0" expand="true"/>
             </task>
-        </task>
-        <task id="185" name="Lizenz beschaffung" color="#000000" meeting="false" start="2019-05-16" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="false">
-            <task id="186" name="Windows Lizenzen" meeting="false" start="2019-05-16" duration="1" complete="0" expand="true">
-                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            <task id="294" name="Backend fertig" color="#ff3300" meeting="true" start="2019-05-24" duration="0" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
+                <depend id="210" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="187" name="Office Lizenzen" meeting="false" start="2019-05-16" duration="1" complete="0" expand="true">
-                <depend id="61" type="2" difference="0" hardness="Strong"/>
-                <depend id="62" type="2" difference="0" hardness="Strong"/>
+            <task id="65" name="Frontend programmieren" color="#33cc00" meeting="false" start="2019-05-16" duration="11" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
+                <depend id="325" type="2" difference="0" hardness="Strong"/>
+                <task id="210" name="Backend-schnittstelle implentieren" color="#33cc00" meeting="false" start="2019-05-24" duration="3" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="215" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="213" name="Views anlegen" color="#33cc00" meeting="false" start="2019-05-16" duration="3" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="215" type="2" difference="0" hardness="Strong"/>
+                    <depend id="217" type="2" difference="0" hardness="Strong"/>
+                    <depend id="219" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="217" name="Styles" color="#33cc00" meeting="false" start="2019-05-21" duration="1" complete="0" thirdDate="2019-05-21" thirdDate-constraint="0" expand="true"/>
+                <task id="215" name="Views mit Daten füllen" color="#33cc00" meeting="false" start="2019-05-29" duration="2" complete="0" thirdDate="2019-05-27" thirdDate-constraint="0" expand="true"/>
+                <task id="219" name="Responsive und Native funktionen" color="#33cc00" meeting="false" start="2019-05-21" duration="5" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true"/>
             </task>
+            <task id="325" name="Frontend fertig" color="#ff3300" meeting="true" start="2019-05-31" duration="0" complete="0" thirdDate="2019-05-16" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="53" name="Software" color="#000000" meeting="false" start="2019-05-16" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="false">
-            <task id="64" name="Backend programmieren" color="#8cb6ce" meeting="false" start="2019-05-16" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
-            <task id="65" name="Frontend programmieren" color="#8cb6ce" meeting="false" start="2019-05-16" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+        <task id="337" name="Softwaretests" color="#33cc00" meeting="false" start="2019-05-16" duration="11" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+        <task id="329" name="Software fertig" color="#ff3300" meeting="true" start="2019-05-31" duration="0" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true">
+            <depend id="228" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="63" name="Dokumentation anfertigen" color="#8cb6ce" meeting="false" start="2019-05-16" duration="1" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+        <task id="63" name="Dokumentation anfertigen" color="#33cc00" meeting="false" start="2019-05-16" duration="11" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+        <task id="202" name="Digitalisierung vorhandener Daten" color="#ffff00" meeting="false" start="2019-05-29" duration="3" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
+        <task id="227" name="Schulungen" color="#ff00ff" meeting="false" start="2019-05-31" duration="4" complete="0" thirdDate="2019-05-31" thirdDate-constraint="0" expand="true">
+            <depend id="366" type="2" difference="0" hardness="Strong"/>
+            <task id="228" name="Schulung Mitarbeiter" color="#ff00ff" meeting="false" start="2019-05-31" duration="4" complete="0" thirdDate="2019-05-31" thirdDate-constraint="0" expand="true"/>
+            <task id="229" name="Schulung Haushüter" color="#ff00ff" meeting="false" start="2019-06-04" duration="2" complete="0" thirdDate="2019-05-31" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="366" name="Projekt abgeschlossen" color="#ff3300" meeting="true" start="2019-06-06" duration="0" complete="0" thirdDate="2019-05-14" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
